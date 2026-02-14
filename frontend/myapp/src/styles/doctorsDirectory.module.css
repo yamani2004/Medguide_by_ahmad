@@ -118,6 +118,45 @@
   line-height: 1.55;
 }
 
+.metaTitle {
+  margin: 12px 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1e293b;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+  color: #334155;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.list li {
+  margin-bottom: 4px;
+}
+
+.profileContact {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid #e2e8f0;
+  font-size: 13px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.profileContact a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.profileContact a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);

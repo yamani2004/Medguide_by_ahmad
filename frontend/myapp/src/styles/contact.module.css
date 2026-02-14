@@ -109,6 +109,19 @@
   transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.linkContent {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.whatsappIcon {
+  width: 18px;
+  height: 18px;
+  color: #16a34a;
+  flex-shrink: 0;
+}
+
 .contactLink:last-child {
   margin-bottom: 0;
 }
