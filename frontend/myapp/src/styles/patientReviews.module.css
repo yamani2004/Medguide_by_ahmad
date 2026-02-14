@@ -1,0 +1,283 @@
+.section {
+  padding: 94px 20px;
+  background: linear-gradient(180deg, #f7faff 0%, #eef4ff 100%);
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 760px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d4ed8;
+  background: rgba(37, 99, 235, 0.12);
+}
+
+.header h2 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.header p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.65;
+}
+
+.imageGallery {
+  margin-bottom: 28px;
+  border: 1px solid #dce6f7;
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 16px;
+}
+
+.imageGallery h3 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  color: #0f172a;
+}
+
+.imageGallery p {
+  margin: 0 0 14px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.imageCard {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #dbe7fb;
+  background: #0f172a;
+}
+
+.imageCard img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.imageCard:hover img {
+  transform: scale(1.03);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card {
+  border: 1px solid #dce6f7;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.07);
+}
+
+.videoWrap {
+  position: relative;
+  background: #0b1220;
+  aspect-ratio: 16 / 9;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.embedFrame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  background: #ffffff;
+}
+
+.soundToggle {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+  background: rgba(15, 23, 42, 0.8);
+  cursor: pointer;
+}
+
+.instagramLink {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+  background: rgba(37, 99, 235, 0.9);
+}
+
+.content {
+  padding: 14px 14px 16px;
+}
+
+.content h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  color: #0f172a;
+}
+
+.meta {
+  margin: 0 0 9px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.text {
+  margin: 0;
+  color: #334155;
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+.adminPanel {
+  margin-top: 28px;
+  border-radius: 16px;
+  border: 1px solid #dce6f7;
+  background: #ffffff;
+  padding: 18px;
+}
+
+.adminLogin h3,
+.adminForm h3 {
+  margin: 0 0 8px;
+  color: #0f172a;
+}
+
+.adminLogin p {
+  margin: 0 0 12px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.adminRow {
+  display: flex;
+  gap: 10px;
+}
+
+.adminRow input,
+.formGrid input,
+.formGrid textarea {
+  border: 1px solid #dbe7fb;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.adminRow button,
+.adminActions button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.formGrid textarea {
+  grid-column: span 2;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.adminActions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.clear {
+  background: #334155 !important;
+}
+
+.error {
+  margin: 10px 0 0;
+  color: #b91c1c;
+  font-size: 13px;
+}
+
+@media (max-width: 1024px) {
+  .imageGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .section {
+    padding: 72px 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .imageGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .header h2 {
+    font-size: 28px;
+  }
+
+  .adminRow {
+    flex-direction: column;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .formGrid textarea {
+    grid-column: span 1;
+  }
+}

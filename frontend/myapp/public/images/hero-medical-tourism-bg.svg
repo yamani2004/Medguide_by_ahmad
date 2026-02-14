@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2a44" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1800" height="1100" fill="url(#sky)" />
+
+  <circle cx="1550" cy="210" r="180" fill="#67e8f9" opacity="0.18" />
+  <circle cx="260" cy="180" r="220" fill="#22d3ee" opacity="0.14" />
+  <circle cx="960" cy="420" r="300" fill="#60a5fa" opacity="0.18" />
+
+  <rect x="0" y="770" width="1800" height="330" fill="url(#land)" opacity="0.28" />
+
+  <g opacity="0.95">
+    <rect x="240" y="520" width="420" height="300" rx="20" fill="#f8fafc" />
+    <rect x="300" y="560" width="70" height="70" rx="10" fill="#dbeafe" />
+    <rect x="400" y="560" width="70" height="70" rx="10" fill="#dbeafe" />
+    <rect x="500" y="560" width="70" height="70" rx="10" fill="#dbeafe" />
+    <rect x="300" y="660" width="70" height="70" rx="10" fill="#dbeafe" />
+    <rect x="400" y="660" width="70" height="70" rx="10" fill="#dbeafe" />
+    <rect x="500" y="660" width="70" height="70" rx="10" fill="#dbeafe" />
+    <rect x="390" y="460" width="120" height="40" rx="8" fill="#2563eb" />
+    <rect x="430" y="420" width="40" height="120" rx="8" fill="#2563eb" />
+  </g>
+
+  <g opacity="0.94">
+    <rect x="1210" y="540" width="360" height="260" rx="20" fill="#f8fafc" />
+    <rect x="1260" y="590" width="90" height="70" rx="10" fill="#dbeafe" />
+    <rect x="1380" y="590" width="90" height="70" rx="10" fill="#dbeafe" />
+    <rect x="1260" y="690" width="210" height="22" rx="10" fill="#cbd5e1" />
+    <rect x="1260" y="725" width="170" height="22" rx="10" fill="#cbd5e1" />
+  </g>
+
+  <g transform="translate(720 230) scale(1.2)">
+    <path d="M0 110l180-35 220-130 46 24-150 120 170 35-10 34-205-10-105 98-36-8 54-95-150-60z" fill="#e0f2fe" opacity="0.95"/>
+    <path d="M0 110l180-35 220-130 46 24-150 120 170 35-10 34-205-10-105 98-36-8 54-95-150-60z" fill="none" stroke="#0f172a" stroke-opacity="0.25"/>
+  </g>
+
+  <path d="M400 340c240-180 740-180 1020 10" fill="none" stroke="#93c5fd" stroke-width="6" stroke-dasharray="14 14" opacity="0.55" />
+  <path d="M470 380c220-120 640-120 890 16" fill="none" stroke="#67e8f9" stroke-width="4" stroke-dasharray="10 12" opacity="0.48" />
+</svg>

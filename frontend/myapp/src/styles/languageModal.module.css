@@ -1,0 +1,119 @@
+/* Overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+}
+
+/* Modal card */
+.modal {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 34px 32px 28px;
+  width: 380px;
+  max-width: 92%;
+  box-shadow: 0 28px 70px rgba(15, 42, 68, 0.25);
+  text-align: center;
+}
+
+/* Header */
+.header h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.header p {
+  font-size: 13.5px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+/* Language list */
+.langList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Buttons */
+.langList button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.25s ease;
+}
+
+.langList button span {
+  font-size: 22px;
+}
+
+.langList button strong {
+  font-size: 14px;
+  color: #0f172a;
+  display: block;
+}
+
+.langList button small {
+  font-size: 11.5px;
+  color: #64748b;
+}
+
+/* Hover */
+.langList button:hover {
+  background: #eff6ff;
+  border-color: #2563eb;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.2);
+}
+
+/* Close */
+.close {
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  color: #64748b;
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.close:hover {
+  color: #0f172a;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .modal {
+    padding: 28px 22px;
+  }
+
+  .header h2 {
+    font-size: 20px;
+  }
+
+  .header p {
+    font-size: 12.5px;
+  }
+
+  .langList button {
+    padding: 12px 14px;
+  }
+
+  .langList button strong {
+    font-size: 13px;
+  }
+}

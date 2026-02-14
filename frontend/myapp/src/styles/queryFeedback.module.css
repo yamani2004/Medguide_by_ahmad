@@ -1,0 +1,110 @@
+.section {
+  padding: 92px 20px 104px;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 740px;
+  margin: 0 auto 22px;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d4ed8;
+  background: rgba(37, 99, 235, 0.12);
+}
+
+.header h2 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.header p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.form {
+  border: 1px solid #dbe7fb;
+  border-radius: 16px;
+  padding: 18px;
+  background: #f8fbff;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  border: 1px solid #dbe7fb;
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.radioRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.radioRow label {
+  border: 1px solid #dbe7fb;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form button {
+  border: none;
+  border-radius: 10px;
+  padding: 11px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #0f5132;
+}
+
+@media (max-width: 700px) {
+  .section {
+    padding: 72px 16px 84px;
+  }
+
+  .header h2 {
+    font-size: 28px;
+  }
+
+  .radioRow {
+    grid-template-columns: 1fr;
+  }
+}

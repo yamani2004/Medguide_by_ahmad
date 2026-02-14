@@ -1,0 +1,136 @@
+.footer {
+  background: linear-gradient(180deg, #0b1c2d, #0f172a);
+  color: #e5e7eb;
+  padding: 90px 20px 40px;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+  gap: 60px;
+}
+
+.brand h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+  letter-spacing: 0.3px;
+}
+
+.brand p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #c7d2fe;
+  max-width: 420px;
+}
+
+.trustBadges {
+  margin-top: 18px;
+}
+
+.trustBadges span {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  margin-right: 8px;
+  margin-top: 8px;
+  color: #cbd5f5;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.links h4 {
+  font-size: 14px;
+  margin-bottom: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.linkItem,
+.staticItem {
+  display: block;
+  font-size: 13.5px;
+  margin-bottom: 10px;
+  color: #cbd5f5;
+  text-align: left;
+}
+
+.linkItem {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.linkItem:hover {
+  color: #60a5fa;
+  transform: translateX(3px);
+}
+
+.bottom {
+  max-width: 1280px;
+  margin: 50px auto 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12.5px;
+  color: #94a3b8;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .links {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 70px 16px 30px;
+  }
+
+  .links {
+    grid-template-columns: 1fr;
+  }
+
+  .brand h3 {
+    font-size: 22px;
+  }
+
+  .brand p {
+    font-size: 12.5px;
+  }
+}

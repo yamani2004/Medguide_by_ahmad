@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "guide": "Guide",
+    "contact": "Contact",
+    "consult": "Free Consultation"
+  },
+  "hero": {
+    "title": "Global Medical Tourism Platform",
+    "sub": "Connecting patients with world-class hospitals worldwide"
+  },
+  "guide": {
+    "title": "Your Dedicated Medical Guide"
+  }
+}
