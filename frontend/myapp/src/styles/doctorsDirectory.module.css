@@ -143,18 +143,58 @@
   margin: 14px 0 0;
   padding-top: 12px;
   border-top: 1px solid #e2e8f0;
-  font-size: 13px;
-  color: #0f172a;
-  font-weight: 600;
 }
 
-.profileContact a {
-  color: #1d4ed8;
+.profileContactLabel {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #334155;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.profileActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.contactAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid #dbeafe;
+  background: #f8fbff;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
 }
 
-.profileContact a:hover {
-  text-decoration: underline;
+.contactAction:hover {
+  border-color: #93c5fd;
+  background: #eef4ff;
+}
+
+.whatsappAction {
+  color: #047857;
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+}
+
+.whatsappAction:hover {
+  border-color: #86efac;
+  background: #dcfce7;
+}
+
+.whatsappIcon {
+  width: 14px;
+  height: 14px;
+  color: #16a34a;
+  flex-shrink: 0;
 }
 
 @media (max-width: 1024px) {

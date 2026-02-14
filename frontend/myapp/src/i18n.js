@@ -38,7 +38,7 @@ const resources = {
       hero: {
         badge: 'Global Medical Tourism Platform',
         title: 'Medical Tourism Made Easy',
-        sub: 'Trusted medical guidance for Gulf patients in India',
+        sub: 'Trusted medical guidance for Arab patients in India',
         primaryCta: 'Contact Medical Guide',
         secondaryCta: 'Explore Treatments',
         stats: {
@@ -158,7 +158,7 @@ const resources = {
           three: 'Arabic, Hindi, English',
           four: 'Multi-hospital network access',
         },
-        desc: 'Trusted medical tourism coordinator specializing in Gulf-region patients. Providing hospital matching, treatment planning, visa support, accommodation coordination, and complete end-to-end patient care services.',
+        desc: 'Trusted medical tourism coordinator specializing in Arab-region patients. Providing hospital matching, treatment planning, visa support, accommodation coordination, and complete end-to-end patient care services.',
         primaryCta: 'Talk to Medical Guide',
         secondaryCta: 'View Services',
       },
