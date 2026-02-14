@@ -2,6 +2,10 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from '../styles/contact.module.css'
 
+const CONTACT_NUMBER = '+918588081968'
+const CONTACT_NUMBER_DISPLAY = '+91 85880 81968'
+const WHATSAPP_NUMBER = '918588081968'
+
 export default function ContactForm({ selectedSpecialty = 'general' }) {
   const { t } = useTranslation()
 
@@ -86,6 +90,20 @@ export default function ContactForm({ selectedSpecialty = 'general' }) {
           <div className={styles.formCard}>
             <h2>{t('contact.formTitle')}</h2>
             <p className={styles.subtitle}>{t('contact.formSubtitle')}</p>
+            <div className={styles.directContact}>
+              <p className={styles.directContactTitle}>Direct Assistance</p>
+              <a className={styles.contactLink} href={`tel:${CONTACT_NUMBER}`}>
+                Call: {CONTACT_NUMBER_DISPLAY}
+              </a>
+              <a
+                className={`${styles.contactLink} ${styles.whatsappLink}`}
+                href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                WhatsApp Chat
+              </a>
+            </div>
 
             {error && <div className={styles.error}>{error}</div>}
             {success && <div className={styles.success}>{success}</div>}

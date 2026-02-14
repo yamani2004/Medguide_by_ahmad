@@ -78,6 +78,53 @@
   margin-bottom: 22px;
 }
 
+.directContact {
+  margin-bottom: 16px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #dbeafe;
+  background: linear-gradient(135deg, #eff6ff, #f8fbff);
+}
+
+.directContactTitle {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1e3a8a;
+  text-transform: uppercase;
+}
+
+.contactLink {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #0f172a;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  font-weight: 600;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contactLink:last-child {
+  margin-bottom: 0;
+}
+
+.contactLink:hover {
+  transform: translateY(-1px);
+  border-color: #93c5fd;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.14);
+}
+
+.whatsappLink {
+  color: #065f46;
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+}
+
 /* Inputs */
 .formCard input,
 .formCard textarea {
